@@ -31,7 +31,7 @@ namespace twitterAPI
             Thread.Sleep(2500);
             
             driver.FindElement(By.Name("session[username_or_email]")).SendKeys(un);
-            driver.FindElement(By.Name("session[password]")).SendKeys("Galatasaray1453");
+            driver.FindElement(By.Name("session[password]")).SendKeys("****");
             driver.FindElement(By.CssSelector("[data-testid=LoginForm_Login_Button]")).Click();
             return driver;
         }
